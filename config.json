@@ -1,0 +1,14 @@
+{
+    "exchange": [
+        "binance"
+    ],
+    "timeframe": ["1s", "3m", "5m", "15m"],
+    "market": ["ETH/BTC"],
+    "indicator": {
+        "atr": [3, 7, 14, 24, 72],
+        "cls": [100, 50, 20],
+        "rsi": true,
+        "sma": [10, 20, 50, 100, 300],
+        "ema": [10, 20, 50, 100, 300],
+    }
+}
